@@ -39,7 +39,7 @@
             Console.WriteLine(products_list[i,0]+products_list[i,1]+products_list[i,2]);
         }
 
-        Console.WriteLine("escriba cantidad de elementos que va a comprar");
+        Console.WriteLine("Escriba cantidad de elementos que va a comprar");
         items = int.Parse(Console.ReadLine());
 
         for(int i=0;i<=items;i++){
